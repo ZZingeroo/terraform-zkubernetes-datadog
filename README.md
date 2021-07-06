@@ -11,7 +11,7 @@ provider "kubernetes" {
 
 module "datadog" {  
   source  = "ZZingeroo/datadog/kubernetes"
-  version = "0.9.1"
+  version = "1.0.1"
 
   datadog_agent_api_key = "<YOUR_API_KEY>"
   datadog_agent_site = "datadoghq.com" # Set to "datadoghq.eu" to send your Agent data to the Datadog EU site (default: "datadoghq.com")
