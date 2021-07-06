@@ -2,6 +2,8 @@
 
 Deploy datadog for a Kubernetes and Terraform setup
 
+Based off this repo: https://github.com/cookielab/terraform-kubernetes-datadog
+
 ## Usage
 
 ```terraform
@@ -14,6 +16,6 @@ module "datadog" {
   version = "1.0.2"
 
   datadog_agent_api_key = "<YOUR_API_KEY>"
-  datadog_agent_site = "datadoghq.com" # Set to "datadoghq.eu" to send your Agent data to the Datadog EU site (default: "datadoghq.com")
+  datadog_agent_site = "datadoghq.com"
 }
 ```
