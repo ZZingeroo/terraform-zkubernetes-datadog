@@ -4,6 +4,8 @@ Deploy datadog for a Kubernetes and Terraform setup
 
 Based off this repo: https://github.com/cookielab/terraform-kubernetes-datadog
 
+Our terraform registry which pulls from this GitHub repo is located here: https://registry.terraform.io/modules/ZZingeroo/datadog/zkubernetes/latest
+
 ## Usage
 
 ```terraform
