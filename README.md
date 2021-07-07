@@ -1,6 +1,6 @@
 # Terraform module for Kubernetes Datadog
 
-Deploy datadog for a Kubernetes and Terraform setup
+Deploy datadog for our Kubernetes and Terraform setup. Each code change requires a bump to the version and release so the Terraform registry can get the new changes.
 
 Based off this repo: https://github.com/cookielab/terraform-kubernetes-datadog
 
@@ -17,7 +17,7 @@ module "datadog" {
   source  = "ZZingeroo/datadog/zkubernetes"
   version = "1.0.2"
 
-  datadog_agent_api_key = "<YOUR_API_KEY>"
+  datadog_agent_api_key = "<API_KEY>"
   datadog_agent_site = "datadoghq.com"
 }
 ```
