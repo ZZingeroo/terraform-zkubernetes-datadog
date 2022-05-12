@@ -233,12 +233,12 @@ resource "kubernetes_daemonset" "datadog_agent" {
           }
 
           resources {
-            requests {
+            requests = {
               memory = "256Mi"
               cpu = "200m"
             }
 
-            limits {
+            limits = {
               memory = "256Mi"
               cpu = "200m"
             }
